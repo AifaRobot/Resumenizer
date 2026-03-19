@@ -149,8 +149,8 @@ git clone <repo>
 cd Resumenizer
 
 # 2. Configurar la API key de OpenAI
-cp .env.example .env
-# Editar .env y poner: OPENAI_API_KEY=sk-...
+cp backend/.env.example backend/.env
+# Editar backend/.env y poner: OPENAI_API_KEY=sk-...
 
 # 3. Levantar todo
 docker compose up --build
@@ -220,9 +220,7 @@ Resumenizer/
 │           └── DocumentList.jsx      # Lista de documentos + filtro + eliminar
 ├── db/                           # ChromaDB persistente (generado en runtime, no commitear)
 ├── docker-compose.yml
-├── CLAUDE.md                     # Guía para Claude Code
-├── .env.example                  # Plantilla de variables de entorno
-└── .env                          # API keys locales (no commitear)
+└── CLAUDE.md                     # Guía para Claude Code
 ```
 
 ---

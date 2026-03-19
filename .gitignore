@@ -12,6 +12,7 @@ build/
 
 # Variables de entorno — NUNCA commitear
 .env
+backend/.env
 
 # Chroma — base de datos local (puede ser grande)
 db/

@@ -77,7 +77,7 @@ npm run build                    # Build de producción
 
 ## Variables de entorno
 
-Copiar `.env.example` a `.env` y completar:
+Copiar `backend/.env.example` a `backend/.env` y completar:
 
 | Variable | Descripción | Default |
 |----------|-------------|---------|
